@@ -11,4 +11,13 @@ set scheme stata61, perm
 
 ```
 
+## Why is the font different from R ?
+
+Unlike R, we cannot set font types in STATA schemes, it must be done in the export stage. In `theme61` we use Arial.
+
+```
+graph set [exporttype] fontface "Arial"
+
+```
+
 ## What do these charts actually look like?

@@ -1,0 +1,250 @@
+* stata61 --- Elyse Dwyer (2022)
+*
+sequence 1210
+label "stata61"   // auto generated
+#include lean2
+color background white
+color plotregion none
+linestyle plotregion foreground
+color grid dimgray
+color major_grid dimgray
+color minor_grid dimgray
+linewidth grid thin
+linewidth major_grid thin
+linewidth minor_grid thin
+color heading black
+color textbox none
+color bylabel_outline none
+color mat_label_box none
+clockdir legend_position 6
+clockdir by_legend_position 6
+areastyle legend none
+gsize legend_key_xsize huge
+numstyle legend_cols 4
+numstyle graph_aspect 0.75
+linewidth axisline none
+margin graph l=1
+color p1markfill "102 206 214"
+color p2markfill "51 167 171"
+color p3markfill "0 128 128"
+color p4markfill "0 48 57"
+color p5markfill "179 179 179"
+color p6markfill "127 127 127"
+color p7markfill "77 77 77"
+color p8markfill "255 165 87"
+color p9markfill "201 107 24"
+color p10markfill "227 93 79"
+color p11markfill "180 0 0"
+color p12markfill "133 0 0"
+color p1markline "102 206 214"
+color p2markline "51 167 171"
+color p3markline "0 128 128"
+color p4markline "0 48 57"
+color p5markline "179 179 179"
+color p6markline "127 127 127"
+color p7markline "77 77 77"
+color p8markline "255 165 87"
+color p9markline "201 107 24"
+color p10markline "227 93 79"
+color p11markline "180 0 0"
+color p12markline "133 0 0"
+color p1lineplot "102 206 214"
+color p2lineplot "51 167 171"
+color p3lineplot "0 128 128"
+color p4lineplot "0 48 57"
+color p5lineplot "179 179 179"
+color p6lineplot "127 127 127"
+color p7lineplot "77 77 77"
+color p8lineplot "255 165 87"
+color p9lineplot "201 107 24"
+color p10lineplot "227 93 79"
+color p11lineplot "180 0 0"
+color p12lineplot "133 0 0"
+color p1line "102 206 214"
+color p2line "51 167 171"
+color p3line "0 128 128"
+color p4line "0 48 57"
+color p5line "179 179 179"
+color p6line "127 127 127"
+color p7line "77 77 77"
+color p8line "255 165 87"
+color p9line "201 107 24"
+color p10line "227 93 79"
+color p11line "180 0 0"
+color p12line "133 0 0"
+color p1area "102 206 214"
+color p2area "51 167 171"
+color p3area "0 128 128"
+color p4area "0 48 57"
+color p5area "179 179 179"
+color p6area "127 127 127"
+color p7area "77 77 77"
+color p8area "255 165 87"
+color p9area "201 107 24"
+color p10area "227 93 79"
+color p11area "180 0 0"
+color p12area "133 0 0"
+color p1arealine "102 206 214"
+color p2arealine "51 167 171"
+color p3arealine "0 128 128"
+color p4arealine "0 48 57"
+color p5arealine "179 179 179"
+color p6arealine "127 127 127"
+color p7arealine "77 77 77"
+color p8arealine "255 165 87"
+color p9arealine "201 107 24"
+color p10arealine "227 93 79"
+color p11arealine "180 0 0"
+color p12arealine "133 0 0"
+color p1bar "102 206 214"
+color p2bar "51 167 171"
+color p3bar "0 128 128"
+color p4bar "0 48 57"
+color p5bar "179 179 179"
+color p6bar "127 127 127"
+color p7bar "77 77 77"
+color p8bar "255 165 87"
+color p9bar "201 107 24"
+color p10bar "227 93 79"
+color p11bar "180 0 0"
+color p12bar "133 0 0"
+color p1barline "102 206 214"
+color p2barline "51 167 171"
+color p3barline "0 128 128"
+color p4barline "0 48 57"
+color p5barline "179 179 179"
+color p6barline "127 127 127"
+color p7barline "77 77 77"
+color p8barline "255 165 87"
+color p9barline "201 107 24"
+color p10barline "227 93 79"
+color p11barline "180 0 0"
+color p12barline "133 0 0"
+color p1dotmarkfill "102 206 214"
+color p2dotmarkfill "51 167 171"
+color p3dotmarkfill "0 128 128"
+color p4dotmarkfill "0 48 57"
+color p5dotmarkfill "179 179 179"
+color p6dotmarkfill "127 127 127"
+color p7dotmarkfill "77 77 77"
+color p8dotmarkfill "255 165 87"
+color p9dotmarkfill "201 107 24"
+color p10dotmarkfill "227 93 79"
+color p11dotmarkfill "180 0 0"
+color p12dotmarkfill "133 0 0"
+color p1dotmarkline "102 206 214"
+color p2dotmarkline "51 167 171"
+color p3dotmarkline "0 128 128"
+color p4dotmarkline "0 48 57"
+color p5dotmarkline "179 179 179"
+color p6dotmarkline "127 127 127"
+color p7dotmarkline "77 77 77"
+color p8dotmarkline "255 165 87"
+color p9dotmarkline "201 107 24"
+color p10dotmarkline "227 93 79"
+color p11dotmarkline "180 0 0"
+color p12dotmarkline "133 0 0"
+color p1pie "102 206 214"
+color p2pie "51 167 171"
+color p3pie "0 128 128"
+color p4pie "0 48 57"
+color p5pie "179 179 179"
+color p6pie "127 127 127"
+color p7pie "77 77 77"
+color p8pie "255 165 87"
+color p9pie "201 107 24"
+color p10pie "227 93 79"
+color p11pie "180 0 0"
+color p12pie "133 0 0"
+color p1box "102 206 214"
+color p2box "51 167 171"
+color p3box "0 128 128"
+color p4box "0 48 57"
+color p5box "179 179 179"
+color p6box "127 127 127"
+color p7box "77 77 77"
+color p8box "255 165 87"
+color p9box "201 107 24"
+color p10box "227 93 79"
+color p11box "180 0 0"
+color p12box "133 0 0"
+color p1boxmarkfill "102 206 214"
+color p2boxmarkfill "51 167 171"
+color p3boxmarkfill "0 128 128"
+color p4boxmarkfill "0 48 57"
+color p5boxmarkfill "179 179 179"
+color p6boxmarkfill "127 127 127"
+color p7boxmarkfill "77 77 77"
+color p8boxmarkfill "255 165 87"
+color p9boxmarkfill "201 107 24"
+color p10boxmarkfill "227 93 79"
+color p11boxmarkfill "180 0 0"
+color p12boxmarkfill "133 0 0"
+color p1boxmarkline "102 206 214"
+color p2boxmarkline "51 167 171"
+color p3boxmarkline "0 128 128"
+color p4boxmarkline "0 48 57"
+color p5boxmarkline "179 179 179"
+color p6boxmarkline "127 127 127"
+color p7boxmarkline "77 77 77"
+color p8boxmarkline "255 165 87"
+color p9boxmarkline "201 107 24"
+color p10boxmarkline "227 93 79"
+color p11boxmarkline "180 0 0"
+color p12boxmarkline "133 0 0"
+color histogram "102 206 214"
+color histogram_line "51 167 171"
+symbol p1 smcircle
+symbol p2 smcircle
+symbol p3 smcircle
+symbol p4 smcircle
+symbol p5 smcircle
+symbol p6 smcircle
+symbol p7 smcircle
+symbol p8 smcircle
+symbol p9 smcircle
+symbol p10 smcircle
+symbol p11 smcircle
+symbol p12 smcircle
+symbol p13 smcircle
+symbol p14 smcircle
+symbol p15 smcircle
+symbol p16 smcircle
+symbol refmarker square
+linepattern p1lineplot solid
+linepattern p2lineplot solid
+linepattern p3lineplot solid
+linepattern p4lineplot solid
+linepattern p5lineplot solid
+linepattern p6lineplot solid
+linepattern p7lineplot solid
+linepattern p8lineplot solid
+linepattern p9lineplot solid
+linepattern p10lineplot solid
+linepattern p11lineplot solid
+linepattern p12lineplot solid
+linepattern p13lineplot solid
+linepattern p14lineplot solid
+linepattern p1line solid
+linepattern p2line solid
+linepattern p3line solid
+linepattern p4line solid
+linepattern p5line solid
+linepattern p6line solid
+linepattern p7line solid
+linepattern p8line solid
+linepattern p9line solid
+linepattern p10line solid
+linepattern p11line solid
+linepattern p12line solid
+linepattern p13line solid
+linepattern p14line solid
+gsize heading 3.472222222222222
+gsize subheading 3.125
+gsize axis_title 2.777777777777778
+gsize p1label 2.083333333333333
+gsize text_option 2.083333333333333
+gsize tick_label 2.083333333333333
+gsize key_label 2.430555555555556
+gsize tick 0
+
