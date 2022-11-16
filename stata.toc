@@ -1,0 +1,3 @@
+v 0.1
+d Elyse Dwyer, elyse.dwyer@e61.in
+p 'scheme-stata61': pretty e61 schemes for stata

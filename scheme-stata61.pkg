@@ -1,0 +1,7 @@
+v 0.1
+d
+d 'scheme-stata61': pretty e61 schemes for stata
+d
+d Distribution-Date: 20221201
+d
+f scheme-stata61.scheme
