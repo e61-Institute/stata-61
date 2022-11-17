@@ -1,3 +1,7 @@
 v 0.1
-d Elyse Dwyer, elyse.dwyer@e61.in
-p 'scheme-stata61': pretty e61 schemes for stata
+d STATA-61: A collection of various Stata graph schemes.
+d
+d Asjad Naqvi 
+d asjadnaqvi@gmail.com
+d https://medium.com/the-stata-guide
+d https://github.com/e61-Institute

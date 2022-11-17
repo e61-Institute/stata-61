@@ -20,4 +20,12 @@ graph set [exporttype] fontface "Arial"
 
 ```
 
+## Why is there no second y axis ?
+
+Similarly, this functionality is not available in stata unless you specify a secondary axis.
+
 ## What do these charts actually look like?
+
+Here's an example
+
+![Demo Graph](demo_graph.svg)
